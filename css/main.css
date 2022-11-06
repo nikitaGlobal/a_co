@@ -225,7 +225,7 @@ button:focus,
     background-size: contain;
 }
 
-.page-content__img {
+.page-content img {
     display: block;
     width: 100%;
     border-radius: 24px;
@@ -296,12 +296,12 @@ button:focus,
     padding: 0 12px;
 }
 
-.page-content__list {
+.page-content ul {
     padding: 0 0 0 20px;
-    margin: 0;
+    margin: 0 0 20px;
 }
 
-.page-content__title {
+.page-content h3 {
     color: #4BC5EC;
     font-size: 24px;
     line-height: 32px;
@@ -311,7 +311,7 @@ button:focus,
     margin: 0 0 20px;
 }
 
-.page-content__text {
+.page-content p {
     margin: 0 0 20px;
 }
 
@@ -320,7 +320,7 @@ button:focus,
     flex-wrap: wrap;
 }
 
-.goals__title {
+.goals h3 {
     width: 100%;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -347,7 +347,7 @@ button:focus,
     padding-right: 0;
 }
 
-.goals__item-number {
+.goals h6 {
     min-width: 40px;
     width: 40px;
     height: 40px;
@@ -355,12 +355,12 @@ button:focus,
     background: #0056A6;
     display: block;
     color: #fff;
-    margin-right: 15px;
+    margin: 0 15px 0 0;
     line-height: 40px;
     text-align: center;
 }
 
-.goals__item-text {
+.goals p {
     margin: 0;
     transform: translate(0, -7px);
 }
@@ -716,7 +716,7 @@ button:focus,
     width: 33%;
 }
 
-.contacts__item-title {
+.contacts h3 {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -1011,18 +1011,18 @@ button:focus,
         margin-bottom: 0;
     }
 
-    .page-content__img {
+    .page-content img {
         border-radius: 12px;
         margin-bottom: 15px;
     }
 
-    .page-content__title {
+    .page-content h3 {
         font-size: 20px;
         line-height: 24px;
         margin-bottom: 5px;
     }
 
-    .goals__title {
+    .goals h3 {
         font-size: 20px;
         line-height: 24px;
         text-align: left;
@@ -1168,7 +1168,7 @@ button:focus,
         margin: 0;
     }
 
-    .goals__item-text {
+    .goals p {
         transform: none;
     }
 
@@ -1194,7 +1194,7 @@ button:focus,
         margin-bottom: 10px;
     }
 
-    .contacts__item-title {
+    .contacts h3 {
         font-size: 20px;
     }
 
